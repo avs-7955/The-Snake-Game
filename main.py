@@ -35,7 +35,7 @@ game_condition = True
 while game_condition:
     # All three segments move forward before the screen is updated.
     my_screen.update()
-    time.sleep(0.5)  # For controlling the speed of the snake.
+    time.sleep(0.2)  # For controlling the speed of the snake.
     snake.move()
 
     # Detect collision with food.
@@ -46,13 +46,13 @@ while game_condition:
 
     # Detect collision with wall.
     if snake.head.xcor() > 280 or snake.head.xcor() < -280 or snake.head.ycor() > 280 or snake.head.ycor() < -280:
-        game_condition = False
-        scoreboard.game_over()
+        scoreboard.reset_game()
+        snake.snake_reset()
 
     # Detect collision with tail
     for segment in snake.all_snake_parts[1:]:
         if segment.distance(snake.head) < 10:
-            game_condition = False
-            scoreboard.game_over()
+            scoreboard.reset_game()
+            snake.snake_reset()
 
 my_screen.exitonclick()

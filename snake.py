@@ -53,3 +53,12 @@ class Snake:
     def left(self):
         if self.head.heading() != RIGHT:
             self.head.setheading(LEFT)
+
+    # For resetting the snake after the collision.
+    def snake_reset(self):
+        # Moving the snake before clearing it
+        for segment in self.all_snake_parts:
+            segment.goto(700, 700)
+        self.all_snake_parts.clear()
+        self.create_snake()
+        self.head = self.all_snake_parts[0]
