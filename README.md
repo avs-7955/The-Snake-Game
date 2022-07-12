@@ -14,7 +14,7 @@ The game keeps track of the highest score.
 ## Screenshots
 At the start of the game, the food is at a random location and the snake starts from the middle of the screen.
 ![App Screenshot](https://ik.imagekit.io/pq7opoglh/GitHub_ReadMe/PythonMiniProjects/Snake_Game/snake-game_vTvG4W7XT.png?ik-sdk-version=javascript-1.4.3&updatedAt=1657628588158)
-
+</div>
 
 ## Run Locally
 
