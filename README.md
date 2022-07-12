@@ -3,6 +3,7 @@ A snake game is a simple game where a snake moves around a box trying to eat an 
 
 The game is over when the snake runs into itself or any of the four walls of the box.
 
+The game keeps track of the highest score.
 <h1 align="center">
   <img src="https://ik.imagekit.io/pq7opoglh/GitHub_ReadMe/stack_GjMfbKvDP.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1655143763495" width="55" alt="stacklogo-python" />
 
@@ -19,3 +20,32 @@ As the snake keeps eating, the score keeps increasing and the snake's body lengt
 
 When the snake hits the wall or it's tail the game is finished.
 ![App Screenshot](https://ik.imagekit.io/pq7opoglh/GitHub_ReadMe/PythonMiniProjects/Snake_Game/game_over_KYWPcQKpQ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1655143535877)
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/avs-7955/The-Snake-Game.git
+```
+
+Go to the project directory
+
+```bash
+  cd The-Snake-Game
+```
+Start the game
+
+```bash
+  python main.py
+```
+
+
+## Author
+
+- [Ayushi Sharan](https://github.com/avs-7955)
+
+
+## Feedback
+
+If you have any feedback, please reach out to me at ayushi.v.sharan@gmail.com
